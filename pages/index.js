@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Hero from 'components/Hero'
 import Navbar from 'components/Navbar'
+import Slider from 'components/Slider'
+import Instagram from 'components/Instagram'
 
 const inter = Inter({ subsets: ['greek'] })
 
@@ -17,6 +19,8 @@ export default function Home() {
       </Head>
       <Hero heading="Captur photography" message="I capture moments on nature and keep them alive"/>
       <Navbar/>
+      <Slider/>
+      <Instagram/>
     </>
   )
 }
